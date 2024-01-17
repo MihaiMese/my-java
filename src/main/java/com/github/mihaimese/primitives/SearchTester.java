@@ -29,11 +29,11 @@ public class SearchTester {
     private static void initList() {
         var start = Instant.now();
         for (int i = 1; i <= 1000; i++) {
-            items.add(new Book("John Doe", "Whatever", 1971, "history"));
-            items.add(new Book("Alfred Billings", "Ethiopia", 2001, "fiction"));
+            items.add(new Book("John Doe", "Whatever", 1971, "epic"));
+            items.add(new Book("Alfred Billings", "Ethiopia", 2001, "scifi"));
             items.add(new Book("Frankie Everhart", "Name 2", 2000, "history"));
             items.add(new Book("Bill Murray", "Now and forever", 1970, "theatre"));
-            items.add(new Book("Amanda Hicks", "1900", 1953, "fiction"));
+            items.add(new Book("Amanda Hicks", "1900", 1953, "drama"));
             items.add(new Book("Faye Michaels", "Who else?", 1988, "history"));
             items.add(new Book("Gabriel Urma", "I have nothing else to say", 1801, "fiction"));
             items.add(new Book("Jean-Pierre Valjean", "Words", 1993, "fiction"));
